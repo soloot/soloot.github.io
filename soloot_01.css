@@ -1,0 +1,104 @@
+#struct_first{ margin-left:auto;margin-right:auto;width:728px;
+}
+#struct_top{ width:728px;border-bottom:1px solid gray;text-align:center;margin-top:5px;
+}
+#struct_left{ float:left;width:160px;margin-top:5px
+}
+#struct_center{ float:left;width:397px;padding-top:10px;padding-bottom:10px;padding-left:5px;padding-right:5px;
+}
+#struct_right{ float:left;width:160px;
+}
+#struct_bottom{ width:728px;border-top:1px solid gray;border-bottom:1px solid gray;text-align:center;
+}
+
+#logo{ border:1px solid gray;text-align:center;margin-bottom:10px
+}
+#top_a{ margin-top:20px;margin-bottom:20px;text-shadow: 0px 2px 3px #222;
+}
+#top_b{ margin-left:auto;margin-right:auto;
+}
+#top_c{ margin-bottom:20px;
+}
+#top_d{ margin-left:auto;margin-right:auto;margin-bottom:20px;
+}
+#top_e{ text-align:right;
+}
+#top_f{ margin-bottom:10px;
+}
+#top_g{ width:100px;text-align:right;margin-right:25px;
+}
+#top_h{ margin-bottom:10px;
+}
+
+#left_logo{ text-align:center
+}
+#left_ap_title{ background-color:#999;text-align:center;padding-top:3px;padding-bottom:3px
+}
+#left_ap{ background-color:#eee;
+}
+#left_url{ text-align:center;text-weight:bold;margin-bottom:5px;
+}
+
+div#ap_note{ border-top:1px solid gray;border-bottom:1px solid gray;margin-bottom:10px;
+}
+
+a 			{ color: #003366; text-decoration: none; }
+a:link		{ color: #003366; text-decoration: none; }
+a:visited	{ color: #003366; text-decoration: none; }
+a:active	{ color: #999999;  }
+a:hover		{ color: red;  }
+
+tr.lista{ background-color:#eee;
+}
+td.tel{ width:100px
+}
+
+div.h2{ font-weight:bold;
+}
+
+span.red{ color:red;
+}
+
+img { border:0px
+}
+img.favicon{ width:16px; height:16px;
+}
+
+div.column_title{ background-color:#999;text-align:center;padding-top:3px;padding-bottom:3px
+}
+div.column{ background-color:#eee;
+}
+
+
+td.menuaa	{
+	background-image:url(http://soloot.googlepages.com/11.gif);
+	background-repeat: repeat-x;
+	height:24px;
+	border: #ccc  solid 1px;
+	text-align:center;
+	font-size:10pt;
+	}
+a.menu:link	{ color:#543 }
+a.menu:visited	{ color:#543 }
+a.menu:active	{ color:#543 }
+a.menu:hover, a.test1:focus 	{ color:#ff0000;}
+
+div#shiyo h3{
+margin-left:1em;
+margin-bottom:0px;
+}
+
+div#shiyo h4{
+margin-top:0px;
+margin-left:2em;
+margin-bottom:0px;
+}
+
+div#shiyo div{
+margin-left:3em;
+}
+
+div#shiyo div ul{
+margin-top:0px;
+margin-bottom:0px;
+}
