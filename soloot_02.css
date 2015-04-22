@@ -1,0 +1,154 @@
+a 			{ color: #003366; text-decoration: none; }
+a:link		{ color: #003366; text-decoration: none; }
+a:visited	{ color: #003366; text-decoration: none; }
+a:active	{ color: #999999;  }
+a:hover		{ color: red;  }
+
+#logo{ border:1px solid gray;text-align:center;margin-bottom:10px
+}
+#top_a{ margin-top:20px;margin-bottom:20px;text-shadow: 0px 2px 3px #222;
+}
+#top_b{ margin-left:auto;margin-right:auto;
+}
+#top_c{ margin-bottom:20px;
+}
+#top_d{ margin-left:auto;margin-right:auto;margin-bottom:20px;
+}
+#top_e{ text-align:right;
+}
+#top_f{ margin-bottom:10px;
+}
+#top_g{ width:100px;text-align:right;margin-right:25px;
+}
+#top_h{ margin-bottom:10px;
+}
+
+#left_logo{ text-align:center
+}
+#left_ap_title{ background-color:#999;text-align:center;padding-top:3px;padding-bottom:3px
+}
+#left_ap{ background-color:#eee;
+}
+#left_url{ text-align:center;text-weight:bold;margin-bottom:5px;
+}
+
+div#ap_note{ border-top:1px solid gray;border-bottom:1px solid gray;margin-bottom:10px;
+}
+
+span.red{ color:red;
+}
+
+img { border:0px
+}
+img.favicon{ width:16px; height:16px;
+}
+
+div#shiyo h3{
+margin-left:1em;
+margin-bottom:0px;
+}
+
+div#shiyo h4{
+margin-top:0px;
+margin-left:2em;
+margin-bottom:0px;
+}
+
+div#shiyo div{
+margin-left:3em;
+}
+
+div#shiyo div ul{
+margin-top:0px;
+margin-bottom:0px;
+}
+
+nav {
+  /*width:100%;*/
+  justify-content: space-around;
+  margin:0 auto;
+  display: flex;
+  align-content: stretch;
+}
+.nav_item{
+  text-align: center;
+  list-style-type: none;
+  width:5em;
+  height: 3em;
+  margin:0 auto;
+  flex-grow: 1;
+  background-image:url(https://soloot.github.io/11.gif);
+  background-repeat: repeat-x;
+  border: #ccc  solid 1px;
+  font-size:11pt;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+a.nav_item:link	{ color:#543 }
+a.nav_item:visited	{ color:#543 }
+a.nav_item:active	{ color:#543 }
+a.nav_item:hover { color:#ff0000;}
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+
+}
+
+.footer {
+}
+
+.main {
+  text-align: left;
+}
+
+.aside-1 {
+}
+
+.aside-2 {
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 auto;
+  }
+}
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+
+  .aside-1 {
+    order: 1;
+    max-width:160px;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .aside-2 {
+    order: 3;
+    max-width:160px;
+  }
+
+  .footer {
+    order: 4;
+  }
+}
